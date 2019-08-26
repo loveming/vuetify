@@ -1,6 +1,6 @@
 <template>
-  <v-footer class="pa-3">
-    <v-spacer></v-spacer>
+  <v-footer>
+    <div class="flex-grow-1"></div>
     <div>&copy; {{ new Date().getFullYear() }}</div>
   </v-footer>
 </template>

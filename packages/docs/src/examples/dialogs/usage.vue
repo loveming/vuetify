@@ -1,5 +1,5 @@
 <template>
-  <div class="text-xs-center">
+  <div class="text-center">
     <v-dialog
       v-model="dialog"
       width="500"
@@ -29,10 +29,10 @@
         <v-divider></v-divider>
 
         <v-card-actions>
-          <v-spacer></v-spacer>
+          <div class="flex-grow-1"></div>
           <v-btn
             color="primary"
-            flat
+            text
             @click="dialog = false"
           >
             I accept
@@ -47,8 +47,8 @@
   export default {
     data () {
       return {
-        dialog: false
+        dialog: false,
       }
-    }
+    },
   }
 </script>

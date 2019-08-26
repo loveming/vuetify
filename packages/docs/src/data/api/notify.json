@@ -1,9 +1,9 @@
 {
-  "color": "default",
+  "color": "green",
   "close": true,
-  "id": "posts/25960280",
-  "text": "Go to Video",
-  "msg": "⚡ March 2019 **Framework Update Video**",
-  "href": "https://www.patreon.com/posts/25960280",
+  "id": "dashboard-pro",
+  "text": "Buy Now",
+  "msg": "🎉 Vuetify Material Dashboard **PRO** is now available 🎉",
+  "href": "https://www.creative-tim.com/product/vuetify-material-dashboard-pro",
   "timeout": 0
 }
